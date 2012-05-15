@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D583BE831555B4CC00C5BDA1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D583BE821555B4CC00C5BDA1 /* UIKit.framework */; };
+		D583BE851555B4CC00C5BDA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D583BE841555B4CC00C5BDA1 /* Foundation.framework */; };
+		D583BE871555B4CC00C5BDA1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D583BE861555B4CC00C5BDA1 /* CoreGraphics.framework */; };
+		D583BE8D1555B4CC00C5BDA1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D583BE8B1555B4CC00C5BDA1 /* InfoPlist.strings */; };
+		D583BE8F1555B4CC00C5BDA1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D583BE8E1555B4CC00C5BDA1 /* main.m */; };
+		D583BE931555B4CC00C5BDA1 /* TBDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D583BE921555B4CC00C5BDA1 /* TBDAppDelegate.m */; };
+		D583BE961555B4CC00C5BDA1 /* TBDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D583BE951555B4CC00C5BDA1 /* TBDViewController.m */; };
+		D583BE991555B4CC00C5BDA1 /* TBDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D583BE971555B4CC00C5BDA1 /* TBDViewController.xib */; };
+		D583BEA11555B4CC00C5BDA1 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D583BEA01555B4CC00C5BDA1 /* SenTestingKit.framework */; };
+		D583BEA21555B4CC00C5BDA1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D583BE821555B4CC00C5BDA1 /* UIKit.framework */; };
+		D583BEA31555B4CC00C5BDA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D583BE841555B4CC00C5BDA1 /* Foundation.framework */; };
+		D583BEAB1555B4CC00C5BDA1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D583BEA91555B4CC00C5BDA1 /* InfoPlist.strings */; };
+		D583BEAE1555B4CC00C5BDA1 /* Time_Between_DatesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D583BEAD1555B4CC00C5BDA1 /* Time_Between_DatesTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D583BEA41555B4CC00C5BDA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D583BE751555B4CC00C5BDA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D583BE7D1555B4CC00C5BDA1;
+			remoteInfo = "Time Between Dates";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D583BE7E1555B4CC00C5BDA1 /* Time Between Dates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Time Between Dates.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D583BE821555B4CC00C5BDA1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D583BE841555B4CC00C5BDA1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D583BE861555B4CC00C5BDA1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D583BE8A1555B4CC00C5BDA1 /* Time Between Dates-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Time Between Dates-Info.plist"; sourceTree = "<group>"; };
+		D583BE8C1555B4CC00C5BDA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D583BE8E1555B4CC00C5BDA1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D583BE901555B4CC00C5BDA1 /* Time Between Dates-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Time Between Dates-Prefix.pch"; sourceTree = "<group>"; };
+		D583BE911555B4CC00C5BDA1 /* TBDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TBDAppDelegate.h; sourceTree = "<group>"; };
+		D583BE921555B4CC00C5BDA1 /* TBDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBDAppDelegate.m; sourceTree = "<group>"; };
+		D583BE941555B4CC00C5BDA1 /* TBDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TBDViewController.h; sourceTree = "<group>"; };
+		D583BE951555B4CC00C5BDA1 /* TBDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBDViewController.m; sourceTree = "<group>"; };
+		D583BE981555B4CC00C5BDA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TBDViewController.xib; sourceTree = "<group>"; };
+		D583BE9F1555B4CC00C5BDA1 /* Time Between DatesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Time Between DatesTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D583BEA01555B4CC00C5BDA1 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		D583BEA81555B4CC00C5BDA1 /* Time Between DatesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Time Between DatesTests-Info.plist"; sourceTree = "<group>"; };
+		D583BEAA1555B4CC00C5BDA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D583BEAC1555B4CC00C5BDA1 /* Time_Between_DatesTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Time_Between_DatesTests.h; sourceTree = "<group>"; };
+		D583BEAD1555B4CC00C5BDA1 /* Time_Between_DatesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Time_Between_DatesTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D583BE7B1555B4CC00C5BDA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D583BE831555B4CC00C5BDA1 /* UIKit.framework in Frameworks */,
+				D583BE851555B4CC00C5BDA1 /* Foundation.framework in Frameworks */,
+				D583BE871555B4CC00C5BDA1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D583BE9B1555B4CC00C5BDA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D583BEA11555B4CC00C5BDA1 /* SenTestingKit.framework in Frameworks */,
+				D583BEA21555B4CC00C5BDA1 /* UIKit.framework in Frameworks */,
+				D583BEA31555B4CC00C5BDA1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D583BE731555B4CC00C5BDA1 = {
+			isa = PBXGroup;
+			children = (
+				D583BE881555B4CC00C5BDA1 /* Time Between Dates */,
+				D583BEA61555B4CC00C5BDA1 /* Time Between DatesTests */,
+				D583BE811555B4CC00C5BDA1 /* Frameworks */,
+				D583BE7F1555B4CC00C5BDA1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D583BE7F1555B4CC00C5BDA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D583BE7E1555B4CC00C5BDA1 /* Time Between Dates.app */,
+				D583BE9F1555B4CC00C5BDA1 /* Time Between DatesTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D583BE811555B4CC00C5BDA1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D583BE821555B4CC00C5BDA1 /* UIKit.framework */,
+				D583BE841555B4CC00C5BDA1 /* Foundation.framework */,
+				D583BE861555B4CC00C5BDA1 /* CoreGraphics.framework */,
+				D583BEA01555B4CC00C5BDA1 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D583BE881555B4CC00C5BDA1 /* Time Between Dates */ = {
+			isa = PBXGroup;
+			children = (
+				D583BE911555B4CC00C5BDA1 /* TBDAppDelegate.h */,
+				D583BE921555B4CC00C5BDA1 /* TBDAppDelegate.m */,
+				D583BE941555B4CC00C5BDA1 /* TBDViewController.h */,
+				D583BE951555B4CC00C5BDA1 /* TBDViewController.m */,
+				D583BE971555B4CC00C5BDA1 /* TBDViewController.xib */,
+				D583BE891555B4CC00C5BDA1 /* Supporting Files */,
+			);
+			path = "Time Between Dates";
+			sourceTree = "<group>";
+		};
+		D583BE891555B4CC00C5BDA1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D583BE8A1555B4CC00C5BDA1 /* Time Between Dates-Info.plist */,
+				D583BE8B1555B4CC00C5BDA1 /* InfoPlist.strings */,
+				D583BE8E1555B4CC00C5BDA1 /* main.m */,
+				D583BE901555B4CC00C5BDA1 /* Time Between Dates-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D583BEA61555B4CC00C5BDA1 /* Time Between DatesTests */ = {
+			isa = PBXGroup;
+			children = (
+				D583BEAC1555B4CC00C5BDA1 /* Time_Between_DatesTests.h */,
+				D583BEAD1555B4CC00C5BDA1 /* Time_Between_DatesTests.m */,
+				D583BEA71555B4CC00C5BDA1 /* Supporting Files */,
+			);
+			path = "Time Between DatesTests";
+			sourceTree = "<group>";
+		};
+		D583BEA71555B4CC00C5BDA1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D583BEA81555B4CC00C5BDA1 /* Time Between DatesTests-Info.plist */,
+				D583BEA91555B4CC00C5BDA1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D583BE7D1555B4CC00C5BDA1 /* Time Between Dates */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D583BEB11555B4CC00C5BDA1 /* Build configuration list for PBXNativeTarget "Time Between Dates" */;
+			buildPhases = (
+				D583BE7A1555B4CC00C5BDA1 /* Sources */,
+				D583BE7B1555B4CC00C5BDA1 /* Frameworks */,
+				D583BE7C1555B4CC00C5BDA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Time Between Dates";
+			productName = "Time Between Dates";
+			productReference = D583BE7E1555B4CC00C5BDA1 /* Time Between Dates.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D583BE9E1555B4CC00C5BDA1 /* Time Between DatesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D583BEB41555B4CC00C5BDA1 /* Build configuration list for PBXNativeTarget "Time Between DatesTests" */;
+			buildPhases = (
+				D583BE9A1555B4CC00C5BDA1 /* Sources */,
+				D583BE9B1555B4CC00C5BDA1 /* Frameworks */,
+				D583BE9C1555B4CC00C5BDA1 /* Resources */,
+				D583BE9D1555B4CC00C5BDA1 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D583BEA51555B4CC00C5BDA1 /* PBXTargetDependency */,
+			);
+			name = "Time Between DatesTests";
+			productName = "Time Between DatesTests";
+			productReference = D583BE9F1555B4CC00C5BDA1 /* Time Between DatesTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D583BE751555B4CC00C5BDA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = D583BE781555B4CC00C5BDA1 /* Build configuration list for PBXProject "Time Between Dates" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D583BE731555B4CC00C5BDA1;
+			productRefGroup = D583BE7F1555B4CC00C5BDA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D583BE7D1555B4CC00C5BDA1 /* Time Between Dates */,
+				D583BE9E1555B4CC00C5BDA1 /* Time Between DatesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D583BE7C1555B4CC00C5BDA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D583BE8D1555B4CC00C5BDA1 /* InfoPlist.strings in Resources */,
+				D583BE991555B4CC00C5BDA1 /* TBDViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D583BE9C1555B4CC00C5BDA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D583BEAB1555B4CC00C5BDA1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D583BE9D1555B4CC00C5BDA1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D583BE7A1555B4CC00C5BDA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D583BE8F1555B4CC00C5BDA1 /* main.m in Sources */,
+				D583BE931555B4CC00C5BDA1 /* TBDAppDelegate.m in Sources */,
+				D583BE961555B4CC00C5BDA1 /* TBDViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D583BE9A1555B4CC00C5BDA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D583BEAE1555B4CC00C5BDA1 /* Time_Between_DatesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D583BEA51555B4CC00C5BDA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D583BE7D1555B4CC00C5BDA1 /* Time Between Dates */;
+			targetProxy = D583BEA41555B4CC00C5BDA1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D583BE8B1555B4CC00C5BDA1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D583BE8C1555B4CC00C5BDA1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D583BE971555B4CC00C5BDA1 /* TBDViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D583BE981555B4CC00C5BDA1 /* en */,
+			);
+			name = TBDViewController.xib;
+			sourceTree = "<group>";
+		};
+		D583BEA91555B4CC00C5BDA1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D583BEAA1555B4CC00C5BDA1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D583BEAF1555B4CC00C5BDA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D583BEB01555B4CC00C5BDA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D583BEB21555B4CC00C5BDA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Time Between Dates/Time Between Dates-Prefix.pch";
+				INFOPLIST_FILE = "Time Between Dates/Time Between Dates-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D583BEB31555B4CC00C5BDA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Time Between Dates/Time Between Dates-Prefix.pch";
+				INFOPLIST_FILE = "Time Between Dates/Time Between Dates-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D583BEB51555B4CC00C5BDA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Time Between Dates.app/Time Between Dates";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Time Between Dates/Time Between Dates-Prefix.pch";
+				INFOPLIST_FILE = "Time Between DatesTests/Time Between DatesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		D583BEB61555B4CC00C5BDA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Time Between Dates.app/Time Between Dates";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Time Between Dates/Time Between Dates-Prefix.pch";
+				INFOPLIST_FILE = "Time Between DatesTests/Time Between DatesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D583BE781555B4CC00C5BDA1 /* Build configuration list for PBXProject "Time Between Dates" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D583BEAF1555B4CC00C5BDA1 /* Debug */,
+				D583BEB01555B4CC00C5BDA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D583BEB11555B4CC00C5BDA1 /* Build configuration list for PBXNativeTarget "Time Between Dates" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D583BEB21555B4CC00C5BDA1 /* Debug */,
+				D583BEB31555B4CC00C5BDA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D583BEB41555B4CC00C5BDA1 /* Build configuration list for PBXNativeTarget "Time Between DatesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D583BEB51555B4CC00C5BDA1 /* Debug */,
+				D583BEB61555B4CC00C5BDA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D583BE751555B4CC00C5BDA1 /* Project object */;
+}
